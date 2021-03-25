@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 244, 244);
+    background-color: rgb(11, 130, 241);
+}
+.maintitulo {
+    background-color: #58abf8;
+    color: #FFFF;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+}
+.linkspaginas {
+    text-align:end;
+    float:right;
+    width: 100%;
+    border-bottom: 6px solid black;
+    background-color: #58abf8;
+    color: rgb(255, 246, 246);
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    word-spacing: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+a { 
+    color: inherit;
+}
+section {
+    float: left;
+    width: 75.85%;
+    text-align: justify;
+    background-color: #ccd1c9e5;
+    line-height: 18px;
+    padding-left: 0.9236%;
+    padding-right: 0.9225%;
+    box-sizing: border-box;
+    border-right: 4px solid #424242e5;
+}
+aside {
+    float: right;
+    width: 24.15%;
+    padding-top: 10px;
+    background-color: #ee4343;
+    border-left-width:initial;
+    border-bottom: 5px solid #424242e5;
+    text-align: justify;
+    box-sizing: inherit;
+    height: 448px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    box-sizing: border-box;
+}
+article {
+    float: left;
+    width: 75.85%;
+    text-align: justify;
+    background-color: #ccd1c9e5;
+    line-height: 18px;
+    padding-left: 0.9236%;
+    padding-right: 0.9225%;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #424242e5;
+    border-right: 4px solid #424242e5;
+    box-sizing: border-box;
+}
+footer {
+    background-color: rgb(11, 130, 241);
+    float: left;
+    width: 74%;
+    padding: 5px;
+}
+.h2footer {
+    text-align: justify;
+}
+@media only screen and (min-width: 1367px) {
+    body {
+      font-size: 1.40em;
+      line-height: 22px;
+    }
+    article, section {
+        padding-bottom: 14px;
+        line-height: 22px;
+    }
+    aside {
+        height: 533px;
+    }
+    footer {
+        height:auto;
+        padding: 5px 0px 0px 10px;
+        color: #000000e5;
+    }
+  }
