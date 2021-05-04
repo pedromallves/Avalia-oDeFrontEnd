@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(255, 244, 244);
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(71, 68, 68);
 }
 .maintitulo {
     background-color: #fdfdfd;
@@ -11,13 +11,10 @@ body {
     padding-top: 8px;
 }
 .linkspaginas {
-    text-align:end;
+    text-align:center;
     float:right;
     width: 100%;
-    border-bottom: 3.5px solid rgb(128, 128, 128);
-    background-color: #ffffff;
     color: rgb(97, 90, 90);
-    padding: 0px 20px 8px 0px;
     word-spacing: 10px;
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -30,6 +27,7 @@ h1, h2 {
 
 a { 
     color: inherit;
+    text-decoration: none;
 }
 a:hover{
     color: #b1b0b0;
@@ -37,37 +35,35 @@ a:hover{
 }
 .textoPrincipal {
     float: left;
-    width: 75.85%;
+    width: 80%;
     text-align: justify;
     background-color: #ffffff;
     line-height: 18px;
-    padding-bottom: 6px;
-    padding-left: 0.9236%;
-    padding-right: 0.9225%;
+    padding: 2px 2% 16px 3%;
     box-sizing: border-box;
     border-bottom: 3px solid #424242e5;;
 }
 aside {
     float: right;
-    width: 24.15%;
+    width: 20%;
     padding-top: 10px;
-    background-color: rgb(28, 28, 185);
-    color: #dacbcb;
+    background-color: rgb(102, 238, 238);
+    color: #5e5a5a;
     border-left: 3px solid rgb(128, 128, 128);
     border-bottom: 3px solid #424242e5;
     text-align: justify;
-    box-sizing: inherit;
-    height: 448px;
+    height:max-content;
     font-family: Arial, Helvetica, sans-serif;
-    padding-right: 0.5%;
-    padding-left: 0.5%;
+    padding: 1% 1% 2% 0.8%;
+    padding-right: 1%;
+    padding-left: 0.8%;
     box-sizing: border-box;
 }
 footer {
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(71, 68, 68);
     float: left;
     width: 74%;
-    padding: 5px;
+    padding: 5px 0px 0px 20px;
 }
 .h2footer {
     text-align: justify;
@@ -75,7 +71,25 @@ footer {
 .ulFooter {
     color: #c4c3c3;
 }
-@media only screen and (min-width: 1367px) {
+.ulNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(82, 77, 77);
+    padding: 5px 20px 5px 0px;
+    border-bottom: 3.5px solid rgb(128, 128, 128);
+    border-top: 3.5px solid rgb(128, 128, 128);
+    color: #ffffff;
+}
+.liNav {
+    display: inline;
+    border-right: 2px solid #bbb;
+    padding: 0px 10px 0px 0px;
+}
+#lastLiNav {
+    border-right: none;
+}
+@media only screen and (min-width: 1370px) {
     body {
       font-size: 1.40em;
       line-height: 22px;
