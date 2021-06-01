@@ -9,12 +9,20 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+.logo-text {
+    vertical-align: middle;
+}
+.logo {
+    margin-right: 0.3rem;
+    padding: 0px;
+}
 .Subs {
-    font-size: large;
+    font-size: 1.2em;
     color: #000000;
 }
 .blockquote {
     padding-left: 20px;
+    padding-right: 5px;
     font-size: 0.95em;
 }
 p {
