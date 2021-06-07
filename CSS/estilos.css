@@ -52,7 +52,7 @@ header p {
     text-align: justify;
     padding: 2rem 0 2rem 0;
     font-size: 1.3rem;
-    text-shadow: 0.06rem 0.06rem 0.06rem #333;
+    text-shadow: 0.06rem 0.06rem 0.06rem #a09191;
     color: #092b88;
 }
 h1, h2 {
@@ -96,6 +96,41 @@ aside {
     background-color: #DAF2EF;
     border-left: 3px solid rgb(167, 165, 165);
 }
+.artigos {
+    background-color: #e4e4e4;
+    border-top: 2px solid rgb(167, 165, 165);
+    position: relative;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.artigos h2 {
+    color: #031e68;
+}
+.artigos h3 {
+    color: #030380;
+}
+.c-align {
+    padding: 0 0 15px 10px;
+}
+.link-artigos {
+    width: 1.3rem;
+    vertical-align: middle;
+}
+.card {
+    background-color: #e4e4e4;
+    border: 2px solid #e4e4e4;
+}
+.card:hover {
+    border: 2px solid rgb(167, 165, 165);
+}
+.artigos a {
+    color: #031d66;
+}
+.card-image {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
 footer {
     background-color: #00227F;
     width: 100%;
@@ -131,5 +166,8 @@ footer {
 @media only screen and (max-width: 768px) {
     .asidediv {
         display: none;
+    }
+    .card-image {
+        height: 40vh;
     }
 }
