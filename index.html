@@ -99,7 +99,7 @@
                             <li class="list-group-item"><a href="https://gamersnews.com.br/categorias/noticias/" rel="external" target="_blank">- Games News -</a></li>
                             <li class="list-group-item"><a href="https://br.ign.com/" rel="external" target="_blank">- IGN Brasil -</a></li>
                         </ul>
-                        <form>
+                        <form class="form-not">
                             <div class="mb-3 container form-noticias">
                                 <label class="form-label text-form">Gostaria de se inscrever para receber novas notícias?</label>
                                 <div class="mb-3 container form-noticias"><input type="nome" class="form-control" placeholder="Seu nome" name="nome"></div>
@@ -174,19 +174,33 @@
                 </div>
             </div>
             <div class="row">
-                <footer>
-                    <ul class="col-12 ulFooter">
+                <footer class="row">
+                    <div class="col-2"></div>
+                    <ul class="col-md-3 col-sm-5 ulFooter">
                         <h2 id="contatos" class="h2footer fs-5">Contatos</h2>
-                        <li>Celular-XXXXXXXXX</li>
-                        <li>Github - <a href="https://github.com/" rel="external" target="_blank">Github</a></li>
-                        <li>Email - example@account.com</li>
-                        <li>&copy;2020 Copyright - Pedro Marinho -</li>
+                        <li><img src="./Media/phone.png" alt="celuar" class="icon"> (63) 99119XXXX</li>
+                        <li><img src="./Media/github2.png" alt="Github" class="icon"> <a href="https://github.com/pedromallves" rel="external" target="_blank">Pedro Marinho</a></li>
+                        <li><img src="./Media/email2.png" alt="email" class="icon"> pedro.m.alves@gmail.com</li>
                     </ul>
+                    <div class="col-md-2 hide-min foot-form-lab"><h3 class="fs-5">Entre em contato:</h3></div>
+                    <form class="col-md-3 form-foot hide-min">
+                        <div class="mb-3 container">
+                            <fieldset class="form-group">
+                                <input type="email" class="form-control input-fot" placeholder="Digite seu email" name="email" required>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <textarea name="menssagem" id="menssagem-footer" cols="30" rows="1" placeholder="Menssagem" class="form-control input-fot"></textarea>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <input type="submit" class="btn btn-primary btn-block col-12 input-fot">
+                            </fieldset>
+                        </div>
+                    </form>
+                    <p>&copy;2020 Copyright - Pedro Marinho</p>
                 </footer>
             </div>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./JS/main.js"></script>
 </body>
 </html>
