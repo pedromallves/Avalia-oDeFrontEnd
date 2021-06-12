@@ -21,6 +21,9 @@ body {
     padding-right: 5px;
     font-size: 0.95em;
 }
+.btn-header {
+    background-color: #0934aa;
+}
 p {
     padding-bottom: 5px;
 }
