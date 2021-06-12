@@ -16,6 +16,10 @@ body {
     margin-right: 0.3rem;
     padding: 0px;
 }
+.intro {
+    text-transform: capitalize;
+    padding-top: 1rem;
+}
 .blockquote {
     padding-left: 20px;
     padding-right: 5px;
@@ -161,6 +165,9 @@ aside {
     position: relative;
     overflow: hidden;
     height: 100%;
+}
+.ct {
+    padding-bottom: 1.48rem;
 }
 .icon {
     width: 1.3rem;
